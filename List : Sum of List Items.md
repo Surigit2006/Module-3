@@ -10,8 +10,18 @@ To write a Python program that calculates the **sum of all elements** in a list.
 
 ## 🧾 Program
 
-Add code here
+```
+n=[1,2,-8]
+sum=0
+for i in n:
+    sum+=i
+print(sum)
+
+```
 
 ## Output
+![image](https://github.com/user-attachments/assets/09ce2f4c-0cff-4fb0-934c-072638a1e25b)
+
 
 ## Result
+program executed successfully

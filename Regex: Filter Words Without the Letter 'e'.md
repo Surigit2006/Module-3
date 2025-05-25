@@ -14,7 +14,19 @@ To write a Python program that filters out and returns all elements from a list 
 5. Print the final filtered list.
 
 ## 🧾 Program
-Add code here
+```
+import re
+
+words_list = ['apple', 'banana', 'cherry', 'plum', 'kiwi', 'grape']
+pattern = re.compile(r'^[^eE]*$')
+
+filtered_list = [word for word in words_list if pattern.match(word)]
+print(filtered_list)
+```
 ## Output
+![image](https://github.com/user-attachments/assets/2ba54972-bf35-491a-9dcf-470820d4ad95)
+
 
 ## Result
+
+code has been executed successfully.
